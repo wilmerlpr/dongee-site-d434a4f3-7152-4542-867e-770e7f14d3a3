@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  cursor: crosshair;
+}
+
+.glitch-text {
+  text-shadow: 2px 0 #ff00ff, -2px 0 #00ffff;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #84cc16;
+  border: 2px solid #0c0a09;
+}
